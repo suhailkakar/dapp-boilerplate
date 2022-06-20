@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Header() {
   return (
-    <nav className="bg-white border-b-2  border-gray-100 px-2 sm:px-4 py-2.5  dark:bg-gray-800">
+    <nav className="bg-white border-b-2  border-gray-100 px-2 sm:px-4 py-2.5  dark:bg-[#0e1217] dark:border-gray-800">
       <div className="container flex flex-wrap justify-between items-center mx-auto">
         <a href="https://flowbite.com" className="flex items-center">
           <img
@@ -10,7 +10,7 @@ export default function Header() {
             className="mr-3 h-9 sm:h-9"
             alt="Dapp logo"
           />
-          <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">
+          <span className="self-center text-xl font-medium whitespace-nowrap dark:text-white">
             Dapp Boilerplate
           </span>
         </a>
